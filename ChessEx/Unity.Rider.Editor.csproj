@@ -330,7 +330,7 @@
         <HintPath>E:\Unity\Editors\2021.3.8f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>E:\Unity\Projects\ChessEx\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>E:\Repositories\ChessEX\ChessEx\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>E:\Unity\Editors\2021.3.8f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -714,10 +714,10 @@
         <HintPath>E:\Unity\Editors\2021.3.8f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:\Unity\Projects\ChessEx\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>E:\Repositories\ChessEX\ChessEx\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:\Unity\Projects\ChessEx\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>E:\Repositories\ChessEX\ChessEx\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
