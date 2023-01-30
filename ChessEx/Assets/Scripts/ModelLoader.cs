@@ -3,28 +3,30 @@ using System.Collections;
 using System.IO;
 using Siccity.GLTFUtility;
 using UnityEngine;
+using TMPro;
 using UnityEngine.Networking;
 
 public class ModelLoader : MonoBehaviour
 {
+    public TextMeshProUGUI text;
     GameObject wrapper;
-    string filePath;
 
     private void Start()
     {
         // An example file path we'll use later
-        filePath = $"{Application.persistentDataPath}/Files/test.gltf";
 
         wrapper=new GameObject
         {
             name = "Model"
         };
     }
-    public void DownloadFile(string url)
+    public void DownloadFile(string input)
     {
+        string url = Application.dataPath + "/" + input + ".glb";
+        text.text = url;
+
         if (File.Exists(url))
         {
-            Debug.Log("Found file locally, loading...");
             LoadModel(url);
             return;
         }
